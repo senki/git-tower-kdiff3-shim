@@ -6,13 +6,13 @@
         <key>ApplicationIdentifier</key>
         <string>com.yourcompany.kdiff3</string>
         <key>ApplicationName</key>
-        <string>kdiff3</string>
+        <string>KDiff3</string>
         <key>DisplayName</key>
-        <string>kdiff3</string>
+        <string>KDiff3</string>
         <key>LaunchScript</key>
         <string>kdiff3-tower.sh</string>
         <key>Identifier</key>
-        <string>kdiff3</string>
+        <string>KDiff3</string>
         <key>SupportsMergeTool</key>
         <true/>
         <key>SupportsDiffChangeset</key>

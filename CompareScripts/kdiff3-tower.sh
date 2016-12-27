@@ -1,9 +1,9 @@
 #! /usr/bin/env bash
 
 # Shell script shim to let Tower.app (http://git-tower.com) to integrate with
-# the free, open-source, kdiff3 application.
+# the free, open-source, KDiff3 application.
 #
-# We pipe stderr to /dev/null as kdiff3 is really noisy even when there's no
+# We pipe stderr to /dev/null as KDiff3 is really noisy even when there's no
 # problem and it screws up tower thinking there was a problem with the merge
 
 # Tower.app gives us these parameters:
@@ -25,11 +25,11 @@ fi
 MERGING="$4"
 BACKUP="/tmp/$(date +"%Y%d%m%H%M%S")"
 
-APPLICATION_PATH=/Applications/kdiff3.app
-CMD="$APPLICATION_PATH/Contents/MacOS/kdiff3"
+APPLICATION_PATH=/Applications/KDiff3.app
+CMD="$APPLICATION_PATH/Contents/MacOS/KDiff3"
 
 if [ ! -x "$CMD" ]; then
-	echo "kdiff3 application could not be found!" >&2
+	echo "KDiff3 application could not be found!" >&2
 	exit 128
 fi
 
