@@ -34,7 +34,7 @@ if [ ! -x "$CMD" ]; then
 fi
 
 if [ -n "$MERGING" ]; then
-  BASE="$3"
+	BASE="$3"
 	MERGE="$4"
 
 	# Sanitize BASE path
@@ -61,7 +61,7 @@ if [ -n "$MERGING" ]; then
 	sleep 1 # required to create different modification timestamp
 	touch "$BACKUP"
 
-  "$CMD" "$LOCAL" "$REMOTE" --base "$BASE" --output "$MERGE_RESULT" 2>/dev/null
+  "$CMD" "$LOCAL" "$REMOTE" --base "$BASE" --output "$MERGE" 2>/dev/null
 else
   "$CMD" "$LOCAL" "$REMOTE" 2>/dev/null
 fi
