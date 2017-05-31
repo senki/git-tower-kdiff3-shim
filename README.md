@@ -5,7 +5,7 @@ Kdiff3 isn't the most "mac-like" application, but it's my favorite merge tool ou
 Clone this repository and run the install script to install the plist file and shim shell script in the appropriate directory.
 
     cd /tmp
-    git clone git@github.com:tednaleid/git-tower-kdiff3-shim.git 
+    git clone git@github.com:yvh/git-tower-kdiff3-shim.git
     cd git-tower-kdiff3-shim
     ./install.sh
     
