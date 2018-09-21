@@ -5,10 +5,10 @@ Kdiff3 isn't the most "mac-like" application, but it's my favorite merge tool ou
 Clone this repository and run the install script to install the plist file and shim shell script in the appropriate directory.
 
 ```shell
-    cd /tmp
-    git clone git@github.com:senki/git-tower-kdiff3-shim.git
-    cd git-tower-kdiff3-shim
-    ./install.sh
+cd /tmp
+git clone git@github.com:senki/git-tower-kdiff3-shim.git
+cd git-tower-kdiff3-shim
+./install.sh
 ```
 
 The shim script assumes that you've downloaded the [kdiff3.app file](http://kdiff3.sourceforge.net/) and have it in your applications directory.  If you've gotten kdiff3 through some other means (such as [homebrew](http://mxcl.github.com/homebrew/)), you'll want to modify the script accordingly.
